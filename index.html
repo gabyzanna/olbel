@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Data Tabel</title>
+    <link rel="stylesheet" href="https://openlayers.org/en/v4.6.5/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <center>
+        <h1>Geographic Information System</h1>
+    </center>
+    
+    <div id="map" class="map"></div>
+    <h3>Nama : Gabriella Youzanna Rorong</h3>
+    <h3>NPM: 1214027</h3>
+    <h3>Kelas : 3A</h3>
+
+    <br>
+    <div class="point-table">
+    <h1>Data Poin</h1>
+    <table id="pointTable" border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Koordinat</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>;
+
+<div class="polygon-table">
+    <h1>Data Polygon</h1>
+    <table id="polygonTable" border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Koordinat</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+
+<div class="polyline-table">
+    <h1>Data Polyline</h1>
+    <table id="polylineTable" border="1">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>Koordinat</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+</div>
+    <script src="https://openlayers.org/en/v4.6.5/build/ol.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
